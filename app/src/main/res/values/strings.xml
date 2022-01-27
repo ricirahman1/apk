@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Healthy Care</string>
+    <string-array name="Daging">
+        <item>Daging Ayam</item>
+        <item>Daging Sapi</item>
+        <item>Daging Kambing</item>
+        <item>Daging Domba</item>
+    </string-array>
+    <string-array name="deskripsi">
+        <item>Daging ayam didapatkan dari ayam ternak yaitu unggas yang paling banyak diternak didunia. Manfaat... </item>
+        <item>Daging sapi adalah daging merah yang berasal dari sapi. Daging sapi merupakan komoditi pangan utama di dunia. Menguatkan tulang, mencegah kelelahan, menurunkan risiko terkena diabetes, memberi tambahan energi, membangun massa otot, dan mencegah penyakit jantung.</item>
+        <item>Daging kambing adalah daging yang dihasilkan dari kamibing, daging kambing dapat mencegah...</item>
+        <item>Daging Domba adalah daging yang dihasilkan dari domba yang diternakkan...</item>
+
+    </string-array>
+
+</resources>

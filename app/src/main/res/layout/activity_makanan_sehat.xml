@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MakananSehatActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="32dp"
+            android:layout_height="21dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="16dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_back" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Makanan Sehat"
+            android:layout_marginLeft="16dp"
+            android:textStyle="bold"
+            android:textColor="@color/mycl"
+            android:textSize="30sp"/>
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_width="370dp"
+        android:layout_height="200dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/gmakanansehat"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"/>
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="130dp"
+                android:layout_marginLeft="16dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/mbuah"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/gbuah"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="20dp"
+                    android:background="@drawable/shape_home">
+                </ImageView>
+
+
+
+                <ImageView
+                    android:id="@+id/mdaging"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/gdaging"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="20dp"
+                    android:background="@drawable/shape_home">
+
+                </ImageView>
+                <ImageView
+                    android:id="@+id/msayur"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/gsayur"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="20dp"
+                    android:background="@drawable/shape_home">
+                </ImageView>
+                <ImageView
+                    android:id="@+id/mikan"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/gikan"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="20dp"
+                    android:paddingLeft="2dp"
+                    android:background="@drawable/shape_home">
+                </ImageView>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+    </ScrollView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/mycl"
+        android:text="Baru-baru ini dilihat "
+        android:layout_marginTop="-5dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="20sp"/>
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/pisang" />
+
+            <ImageView
+                android:layout_width="365dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/str" />
+            <ImageView
+                android:layout_width="365dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/str" />
+            <ImageView
+                android:layout_width="365dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/str" />
+            <ImageView
+                android:layout_width="365dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/str" />
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+
+</LinearLayout>
