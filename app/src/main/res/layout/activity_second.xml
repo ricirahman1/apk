@@ -37,7 +37,7 @@
         android:id="@+id/description"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="76dp"
+        android:layout_marginTop="95dp"
         android:padding="20dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="20dp"
@@ -48,6 +48,54 @@
         app:layout_constraintHorizontal_bias="0.1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/title" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="530dp"
+
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20dp"
+            android:adjustViewBounds="true"
+            android:backgroundTint="#00FFFFFF"
+            android:scaleType="fitXY"
+            android:src="@drawable/karbo">
+
+        </ImageView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginLeft="40dp"
+            android:adjustViewBounds="true"
+            android:backgroundTint="#00FFFFFF"
+            android:scaleType="fitXY"
+            android:src="@drawable/pro">
+
+        </ImageView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginLeft="40dp"
+
+            android:adjustViewBounds="true"
+            android:backgroundTint="#00FFFFFF"
+            android:scaleType="fitXY"
+            android:src="@drawable/lemak">
+
+        </ImageView>
+
+
+    </LinearLayout>
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
